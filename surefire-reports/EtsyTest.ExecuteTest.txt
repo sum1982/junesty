@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: EtsyTest.ExecuteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.387 sec <<< FAILURE!
+testLogin(EtsyTest.ExecuteTest)  Time elapsed: 18.709 sec  <<< FAILURE!
+java.lang.AssertionError: Incorrect Page Loaded: https://www.etsy.com/your/account?ref=hdr_user_menu-settings
+	at org.testng.Assert.fail(Assert.java:96)
+	at etsy.engine.WebOperation.perform(WebOperation.java:95)
+	at EtsyTest.ExecuteTest.testLogin(ExecuteTest.java:63)
